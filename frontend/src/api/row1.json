@@ -1,0 +1,106 @@
+[
+    {
+        "id": 1,
+        "title": "Samsung Curved Monitor",
+        "price": 17999,
+        "discount": "5%",
+        "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side. Experience stunning visuals with QUANTUM DOT (QLED) TECHNOLOGY and immerse yourself in the world of gaming.",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+        "rating": {
+            "rate": 4.2,
+            "count": 140
+        }
+    },
+    {
+        "id": 2,
+        "title": "Zebronics Gaming Mouse",
+        "price": 400,
+        "discount": "10%",
+        "description": "Zeb-Transformer-M is a premium gaming mouse that comes with 6 buttons. It has a high precision optical sensor with a dedicated DPI switch that can toggle between 1000 1600 2400 3200 DPI for precise control and accuracy.",
+        "category": "electronics",
+        "image": "https://static1.industrybuying.com/products/it-electronics/computer-accessories/mouse/ITE.MOU.84830687_1668140645782.webp",
+        "rating": {
+            "rate": 4,
+            "count": 140
+        }
+    },
+    {
+        "id": 3,
+        "title": "Asus ROG Strix Scar II",
+        "price": 250000,
+        "discount": "20%",
+        "description": "ASUS ROG Strix Scar 17 (2023), AMD Ryzen 9 7945HX, 17.3 (43.94 cm) WQHD 240Hz 3ms, 12GB RTX 4080, Gaming Laptop (16GB 1TB SSD Win 11 Office 2021 90WHr Battery Black 3. Kg). Elevate your gaming experience with powerful hardware and cutting-edge technology.",
+        "category": "electronics",
+        "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/GL504_Hero_Cam05Lighting_v1.jpg",
+        "rating": {
+            "rate": 4.5,
+            "count": 140
+        }
+    },
+    {
+        "id": 4,
+        "title": "WD 4TB Gaming Drive",
+        "price": 12000,
+        "discount": "15%",
+        "description": "Expand your PS4 gaming experience with the WD 4TB Gaming Drive. Play anywhere with fast and easy setup. The sleek design with high capacity ensures you have ample space for your favorite games over the next few years.",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+        "rating": {
+            "rate": 4.8,
+            "count": 400
+        }
+    },
+    {
+        "id": 5,
+        "title": "Acer Full HD IPS Monitor",
+        "price": 7000,
+        "discount": "10%",
+        "description": "Immerse yourself in stunning visuals with the Acer Full HD IPS Monitor. The 21.5 inches display delivers crisp Full HD (1920 x 1080) resolution with widescreen IPS technology. Enjoy smooth gaming with Radeon Free Sync technology.",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+        "rating": {
+            "rate": 2.9,
+            "count": 250
+        }
+    },
+    {
+        "id": 6,
+        "title": "WD 2TB Portable HDD",
+        "price": 6000,
+        "discount": "30%",
+        "description": "Experience fast data transfers with the WD 2TB Portable HDD. USB 3.0 and USB 2.0 compatibility ensure versatile connectivity. Improve your PC performance and enjoy high capacity storage for all your important files and media.",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+        "rating": {
+            "rate": 3.3,
+            "count": 203
+        }
+    },
+    {
+        "id": 7,
+        "title": "SanDisk 1TB Internal SSD",
+        "price": 11000,
+        "discount": "20%",
+        "description": "Upgrade your system with the SanDisk 1TB Internal SSD for faster boot-up, shutdown, application load, and response. Experience improved performance compared to traditional 5400 RPM SATA drives. Elevate your computing experience with ease.",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+        "rating": {
+            "rate": 2.9,
+            "count": 470
+        }
+    },
+    {
+        "id": 8,
+        "title": "Silicon Power 256GB SSD",
+        "price": 11500,
+        "discount": "25%",
+        "description": "Enhance your storage solutions with the Silicon Power 256GB SSD. 3D NAND flash technology delivers remarkable transfer speeds, ensuring efficient data management. Enjoy the benefits of high-speed data access for a seamless computing experience.",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+        "rating": {
+            "rate": 4.8,
+            "count": 319
+        }
+    }
+]

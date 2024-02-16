@@ -1,0 +1,151 @@
+.image {
+    width: 25%;
+    aspect-ratio: 1/1;
+}
+
+
+
+.back {
+    display: flex;
+    padding:3% 4% 5.7% 3%;
+    align-content: space-between;
+    justify-content: space-around;
+}
+
+.text {
+    color: rgb(78, 198, 48);
+    font-family: "Segoe UI";
+}
+.link{
+    color: rgb(78, 198, 48);
+    font-family: "Segoe UI";
+}
+.link:hover{
+    color: rgb(78, 198, 48);
+    font-family: "Segoe UI";
+}
+
+.tiltImg{
+    width: 80%;
+}
+
+.bigtext {
+    color: rgb(78, 198, 48);
+    font-size: 130px;
+    text-align: center;
+    font-family: "Segoe UI";
+    font-weight: 500;
+}
+
+.smalltext {
+    color: rgb(78, 198, 48);
+    font-size: 30px;
+    text-align: center;
+    font-family: "Segoe UI";
+    font-weight: 500;
+}
+
+.imgbox{
+    width: 500px;
+}
+
+.notFbtn {
+    min-width: 150px;
+    font-family: "Segoe UI";
+    font-weight: 600;
+    font-size: 25px;
+    border-radius: 14px
+}
+
+.title {
+    color: rgb(78, 198, 48);
+    font-size: 70px;
+    font-family: "Segoe UI";
+}
+
+.input {
+    width: 400px;
+    background-color: #dde1cd;
+    color: #9fa196;
+    font-family: "Segoe UI";
+    
+}
+
+.loginBtn, .signupBtn {
+    font-family: "Segoe UI";
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 10px;
+    height: 40px;
+    justify-content: center;
+    box-shadow: rgba(181, 252, 194, 0.521) 0px 7px 29px 0px;
+    width: 130px;
+}
+
+@media (max-width: 768px) {
+
+    .back {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        justify-content: flex-start;
+        height: 100vh !important;
+        margin-top: 0px !important;
+
+        .sImg{
+            margin-left: 35px;
+        }
+        .loginImg{
+            margin-left: 35px;
+        }
+    }
+
+    .form {
+        margin: 5px auto 0px auto;
+    }
+
+    .image {
+        width: 50%;
+        /* Adjust as needed */
+        margin: 5px auto 0px auto;
+    }
+
+    .title {
+        font-size: 40px;
+        /* Adjust as needed */
+    }
+
+    .link{
+        text-decoration: underline;
+    }
+
+    .input {
+        width: 100%;
+        /* Full width on smaller screens */
+    }
+
+    /* Not Found Page */
+    .imgbox{
+       max-width: 300px;
+       margin-left: 0px;
+       margin-right: 0px;
+    }
+
+    .tiltImg{
+        margin-left: 6vw;
+    }
+
+    .notfimg {
+        margin-left: 15vw;
+    }
+    .bigtext {
+        font-size: 70px; /* Adjust as needed */
+    }
+    .smalltext {
+        font-size: 20px; /* Adjust as needed */
+    }
+
+    .notFbtn {
+        font-size: 20px; /* Adjust as needed */
+    }
+}

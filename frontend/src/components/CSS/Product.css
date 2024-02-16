@@ -1,0 +1,89 @@
+.prodContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    margin-top:8vh;
+    margin-bottom: 12vh;
+
+
+    .singleImg {
+        width: 60vb;
+        height: 55vh;
+        aspect-ratio: 16/9;
+    }
+
+
+    .info {
+        width: 45%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+
+        .singleName {
+            font-size: 45px;
+            font-family: "Segoe UI";
+            font-weight: 600;
+            margin-bottom: 2%;
+        }
+
+        .singleDesc{
+            font-size: 17px;
+            font-family: "Segoe UI";
+            font-weight: 400;
+            margin-bottom: 2%;
+        }
+
+        .singlePrice{
+            font-size: 28px;
+            font-family: "Segoe UI";
+            font-weight: 500;
+            margin-bottom: 2%;
+        }
+
+        .singleRating{
+            font-size: 22px;
+            font-family: "Segoe UI";
+            font-weight: 500;
+            margin-bottom: 2%;
+        }
+
+        .singleBtn{
+            margin-top: 2%;
+            font-size: 23px;
+            font-family: "Segoe UI";
+            font-weight: 600;
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .prodContainer{
+        flex-direction: column;
+        margin-top:4vh;
+        margin-bottom: 6vh;
+
+        .singleName {
+            margin-top: 5% !important;
+        }
+
+        .singleImg{
+            width: 100%;
+            aspect-ratio: 16/9;
+            height: 30vh;
+        }
+
+        .info {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-content: space-around;
+        }
+
+        .singleBtn{
+            margin-top: 8% !important;
+        }
+    }
+}

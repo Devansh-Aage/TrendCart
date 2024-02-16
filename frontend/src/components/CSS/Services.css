@@ -1,0 +1,43 @@
+.outer{
+    /* margin: 6% 6%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+    .services{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .circle{
+        width: 60px;
+        height: 60px;
+        background-color: #93c572;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        align-items: center;
+
+        .truck{
+            font-size: xx-large;
+            color: white;
+            
+        }
+    }
+
+    .text{
+        margin-top: 3px;
+        text-align: center;
+        font-weight: 500;
+        font-family: "Segoe UI";
+        color:  #28a745;
+    }
+}
+
+@media (max-width: 768px) {
+    .outer{
+        margin: 15% auto;
+    }
+}

@@ -1,0 +1,43 @@
+
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .carousBack {
+    width: 100%;
+    flex-direction: column;
+    height: 400px !important;
+  }
+
+  #img {
+    width: 60% !important;
+    height: 55% !important;
+    margin-top: 4px;
+  }
+
+  .brandIcon {
+    font-size: 22px !important;
+  }
+
+  #btn {
+    width: auto !important;
+    height: auto !important;
+    font-size: 14px !important;
+
+    .arrow {
+      padding-top: 7px;
+    }
+  }
+
+  #brand {
+    font-size: 15px !important;
+    padding-top: 2.57x;
+  }
+
+  #title {
+    font-size: 18px !important;
+  }
+
+}

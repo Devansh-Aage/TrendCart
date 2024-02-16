@@ -1,0 +1,137 @@
+.Box {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+.card {
+    border-radius: 6px;
+    width: 250px;
+    height: 45vh;
+
+}
+
+.imgBox {
+    border-radius: 6px;
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.discount {
+    width: 40px;
+    padding: 6px 2px;
+    background-color: red;
+    border-radius: 3px;
+    padding: auto 2px;
+    text-align: center;
+    font-size: 13px;
+    color: white;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+
+.heart {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 10px !important;
+    right: 10px !important;
+    padding: 0px 0px 1px 1px;
+    font-size: 20px;
+}
+
+.heart:hover {
+    cursor: pointer;
+    color: #06ff3c;
+}
+
+.img {
+    aspect-ratio: 1/0.5;
+    width: 100px;
+    height: 140px;
+    margin: 24px auto 10px auto;
+    justify-self: center;
+}
+
+.Box:hover .cart {
+    visibility: visible;
+    transform: translateY(0);
+    transition: display 0.4s ease-in-out, transform 0.4s linear;
+}
+
+.cart {
+    height: 40px;
+    text-align: center;
+    background-color: #f3ffea;
+    color: rgb(78, 198, 48);
+    font-weight: 700;
+    font-size: larger;
+    visibility: hidden;
+    transform: translateY(30%);
+}
+
+.cart:hover {
+    cursor: pointer;
+}
+
+.body {
+    width: 250px;
+    margin-left: 1px;
+    height: 34%;
+    background-color: #f3ffea;
+}
+
+.name {
+    margin-left: 9px;
+    font-family: "Segoe UI";
+    font-size: large;
+    font-weight: 500;
+}
+
+.price {
+    margin-left: 9px;
+    font-family: "Segoe UI";
+    font-weight: 600;
+    font-size: large;
+    color: #037d50;
+}
+
+.rating {
+    margin-left: 9px;
+    display: flex;
+}
+
+.ratingNumber {
+    color: gold;
+    margin-right: 3px;
+}
+
+.star {
+    color: gold;
+    padding-top: 4px;
+    font-size: large;
+}
+
+@media (max-width: 768px) {
+    .cart {
+        display: block;
+    }
+    .card{
+        height: fit-content;
+    }
+
+    .body {
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+        justify-content: center;
+    }
+}

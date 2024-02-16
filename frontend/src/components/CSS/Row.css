@@ -1,0 +1,25 @@
+.slick-arrow{
+    background-color: rgb(78, 198, 48);
+    border-radius: 50%;
+}
+
+.slick-arrow:hover{
+    background-color: rgb(78, 198, 48);
+    border-radius: 50%;
+}
+
+@media(max-width:767px) {
+    .slider{
+        padding-left: 30px;
+    }
+    .timerbox{
+        flex-flow: column;
+        flex-wrap: wrap;
+        justify-content: center !important;
+        padding-left: 40px !important;
+
+        .timer{
+            width: 300px !important;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.banner{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.bannerBtn{
+    width: 200px !important;
+}
+
+@media (max-width:768px){
+    .banner{
+        flex-direction: column;
+        height: 430px !important;
+        flex-flow: column-reverse;
+        justify-content: space-around;
+        
+        .desc{
+            font-size: large !important;
+        }
+        .category{
+            display: none !important;
+        }
+        .image{
+            width: 90% !important;
+            height: 60% !important;
+        }
+        .btn{
+            margin: 5px  5px  !important;
+        }
+        .rolexbtn{
+            width: fit-content !important;
+            margin-left: 22px !important;
+        }
+    }
+}

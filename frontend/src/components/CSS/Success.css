@@ -1,0 +1,39 @@
+.bigSBox{
+    margin-top: 4vh;
+    margin-bottom: 6vh;
+    padding-bottom: 2vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+
+
+    .oneliner{
+        font-style: italic;
+        font-weight: bolder;
+        font-size: 60px;
+        font-family: 'Segoe UI';
+        background: linear-gradient(45deg, #adff2f, #93c572);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+@media (max-width: 768px) {
+    .bigSBox{
+        flex-direction: column-reverse;
+        .oneliner{
+            font-size: 30px;
+            padding: 20px 40px;
+        }
+    }
+
+
+    /* spinner */
+    .spinner{
+        top: 40% !important;
+        right: 26% !important;
+    }
+
+}

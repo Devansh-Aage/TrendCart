@@ -1,0 +1,126 @@
+.bigbox{
+    padding:3% 4% 9% 3%;
+    display: flex;
+    background-color: #fafafa;
+    justify-content: space-between;
+    flex-flow: row-reverse;
+}
+
+.oneliner{
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 60px;
+    font-family: 'Segoe UI';
+    background: linear-gradient(45deg, #adff2f, #93c572);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.para{
+    margin-right: 90px;
+    margin-left: 40px;
+}
+
+.story{
+    font-size: medium;
+    font-family: 'Segoe UI';
+    margin-top: 30px;
+}
+
+/* Contact Page */
+.outerbox{
+  padding: 3% 4% 9% 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .contactimage{
+    padding-left: 50px;
+    object-fit: contain;
+    aspect-ratio: 3/2;
+    mix-blend-mode: color-burn;
+  }
+
+  .ant-form{
+    width: 500px;
+  }
+  .ant-input{
+    width: 300px;
+    background-color: #dde1cd;
+    color: #9fa196;
+    font-family: "Segoe UI";
+  }
+  .ant-btn{
+    font-family: "Segoe UI";
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 14px;
+    justify-content: center;
+    width: 130px;
+    height: auto !important;
+    background-color: #28a745;
+    color: white;
+  }
+  .ant-btn:hover{
+    opacity: 0.8;
+    background-color: #28a745 !important;
+  }
+
+  .contact{
+    color: rgb(78, 198, 48);
+    font-size: 70px;
+    font-family: "Segoe UI";
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+    .bigbox {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      flex-direction: column-reverse;
+
+      .aboutimage{
+        width: 100%;
+        margin-left: 90px;
+      }
+    }
+
+    .para {
+      margin: 0; /* Reset margins for better alignment */
+    }
+
+    /* contact page */
+    .outerbox {
+      margin: 20px;
+      flex-direction: column;
+
+      .contactimage{
+        margin-left: 0px !important;
+      }
+      .ant-form{
+        width: 250px;
+
+        .ant-input{
+          width: 250px;
+        }
+        .ant-btn{
+          width: 90px;
+          font-size: medium;
+        }
+
+        .ant-form-item-control-input-content{
+          width: 100px;
+        }
+      }
+      .contact {
+        font-size: 40px;
+      }
+
+    }
+
+    
+  
+  }

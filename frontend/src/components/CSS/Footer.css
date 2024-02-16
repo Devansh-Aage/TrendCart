@@ -1,0 +1,86 @@
+.outerBox {
+    
+    padding: 60px 40px;
+    display: flex;
+    width: 100%;
+    min-height: 18em;
+    background-color: #4D7942;
+    justify-content: space-between;
+    position: relative;
+}
+
+.toparrow {
+    font-size: xx-large;
+    position: absolute;
+    top: 0%;
+    right: 50%;
+    color: white;
+    cursor: pointer;
+}
+.toparrow:hover {
+    opacity: 0.7;
+}
+
+.head {
+    font-family: 'Segoe UI';
+    color: white;
+    font-weight: 600;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+
+    .anchor {
+        text-decoration: none !important;
+        color: white;
+        font-family: 'Segoe UI';
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .anchor:hover {
+        cursor: pointer;
+        opacity: 0.7;
+    }
+}
+
+.socialIcon {
+    color: white;
+    font-size: larger;
+    margin-right: 14px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+.socialIcon:hover {
+    opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+    .outerBox {
+        padding: 0px 30px !important;
+        flex-direction: row; /* Stack elements vertically on smaller screens */
+        align-items: center; /* Center elements horizontally */
+    }
+
+    .emailbox{
+        display: none;
+    }
+    .address{
+        display: none;
+    }
+    .anchor{
+        font-size: large !important;
+        margin-bottom: 4px;
+    }
+
+    .nav {
+        align-items: center; /* Center nav items horizontally */
+        text-align: center; /* Center text within nav items */
+    }
+
+    .socialIcon {
+        margin: 6px 6px; /* Add margin around social icons */
+    }
+}

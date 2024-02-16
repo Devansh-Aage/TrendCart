@@ -1,0 +1,236 @@
+.navbar {
+    background-color: #93c572;
+    padding: 6px 0px;
+}
+
+.navbar-brand {
+    font-size: 22px;
+    margin-right: 13em;
+    margin-left: 70px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+.nav-link:hover{
+    text-decoration: underline;
+  }
+
+.center {
+    margin: auto 30px;
+    .anchor:hover {
+        opacity: 0.8;
+        color: white;
+    }
+
+}
+
+
+.anchor {
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.anchor:hover {
+
+    color: white;
+}
+
+
+.right {
+    display: flex;
+    margin: auto 10px;
+
+    .search {
+        margin-left: 30px;
+        margin-right: 1em;
+        .ant-btn{
+            background-color: green;
+        }
+        .ant-btn:hover{
+            background-color: green;
+            opacity: 0.7;
+        }
+    }
+
+    .icons{
+        display: flex;
+    }
+
+    .icon {
+        cursor: pointer;
+        color: white;
+        font-size: x-large;
+    }
+
+    .acc {
+        margin-right: 10px;
+        margin-top: 7px;
+        margin-left: 10px;
+    }
+
+    .icon:hover {
+        opacity: 0.6;
+    }
+}
+
+.topbanner {
+    color: rgb(78, 198, 48);
+    font-family: "Segoe UI";
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    height: 43px;
+    background-color: #fffafa;
+    cursor: pointer;
+    padding-top: 3px;
+}
+
+.navbar-toggler {
+    color: white;
+}
+
+
+@media (min-width: 840px) and (max-width:1800) {
+    .top {
+        width: 100%;
+    }
+
+
+
+
+}
+
+
+@media (min-width:0px) and (max-width:400px) {
+    .top {
+        display: none;
+    }
+
+
+}
+
+@media (min-width:400px) and (max-width:840px) {
+    .top {
+        display: none;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .navbar-brand {
+        margin-left: 15px;
+        /* Adjusted margin for smaller screens */
+        margin-right: 0;
+        font-size: 20px;
+    }
+
+
+    .right {
+        margin-right: 15px;
+        /* Adjusted margin for smaller screens */
+        margin-left: 5px;
+        flex-direction: column;
+        /* Stack items vertically */
+        align-items: center;
+
+        /* Center items horizontally */
+        .search {
+            margin-left: 0px;
+            margin-left: 0;
+            width: 70%;
+            /* Reset margin for search */
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            /* Center items horizontally */
+
+            .ant-btn{
+                background-color: green;
+            }
+            .ant-btn:hover{
+                background-color: green;
+                opacity: 0.7;
+            }
+        }
+
+        .icons {
+            display: flex;
+            flex-direction: row;
+            /* Align icons horizontally */
+            justify-content: space-around;
+            /* Distribute icons evenly */
+            width: 100%;
+            /* Full width for icons */
+            margin-top: 10px;
+            /* Adjust as needed */
+        }
+    }
+
+    .navbar-toggler {
+        color: white;
+        border: none;
+        background-color: greenyellow;
+        margin-right: 10px;
+    }
+}
+
+/* ... (your existing styles) ... */
+
+@media (max-width: 767px) {
+    .navbar-brand {
+        margin-left: 15px;
+        /* Adjusted margin for smaller screens */
+        margin-right: 0;
+        font-size: 20px;
+    }
+
+    .nav-item{
+        width: 23% !important;
+    }
+
+
+    .right {
+        margin-right: 15px;
+        /* Adjusted margin for smaller screens */
+        margin-left: 5px;
+        flex-direction: column;
+        /* Stack items vertically */
+        align-items: center;
+
+        /* Center items horizontally */
+        .search {
+            margin-left: 0px;
+            margin-left: 0;
+            /* Reset margin for search */
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            /* Center items horizontally */
+        }
+
+        .icons {
+            display: flex;
+            flex-direction: row;
+            /* Align icons horizontally */
+            justify-content: space-around;
+            /* Distribute icons evenly */
+            width: 100%;
+            /* Full width for icons */
+            margin-top: 10px;
+            /* Adjust as needed */
+        }
+    }
+
+    .navbar-toggler {
+        color: white;
+        border: none;
+        background-color: greenyellow;
+        margin-right: 10px;
+    }
+
+
+}

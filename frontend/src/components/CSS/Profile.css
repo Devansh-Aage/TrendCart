@@ -1,0 +1,62 @@
+.profileBox {
+    background-color: #f5fff5;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+    .main {
+        font-size: 52px;
+        color: rgb(78, 198, 48);
+        text-align: center;
+        font-family: "Segoe UI";
+        font-weight: 500;
+    }
+
+    .user {
+        display: flex;
+        margin-top: 40px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tag {
+        font-size: larger;
+        font-family: "Segoe UI";
+        font-weight: 400;
+    }
+
+    .userDetails {
+        padding: 4px 8px 4px 8px;
+        margin-left: 5px;
+        width: auto;
+        height: auto;
+        border-radius: 6px;
+        background-color: #dde1cd;
+        display: inline;
+        text-align: center;
+        font-size: larger;
+        font-family: "Segoe UI";
+        font-weight: 400;
+    }
+
+    .prodInCart{
+        font-size: 40px;
+        font-family: "Segoe UI";
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    .prodCart{
+        margin: 20px 30px 20px 30px;
+    }
+
+    .slick-arrow{
+        background-color: rgb(78, 198, 48);
+        border-radius: 50%;
+    }
+}
+
+
+
+
+
