@@ -1,5 +1,5 @@
 
-# TrendCart- MERN Stack Ecommerce Website
+# TrendCart- MERN Stack Ecommerce WebApp
 
 TrendCart is my portfolio project, a testament to my proficiency in the MERN stack. Featuring robust user authentication for a secure experience, users can explore and add products to their carts seamlessly. The integration of Stripe as a payment gateway demonstrates my skills in handling transactions efficiently. TrendCart's modern, responsive design ensures a user-friendly interface across devices. Join me in celebrating the culmination of my learning journey with TrendCart! 💼🌐
 
